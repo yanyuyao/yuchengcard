@@ -1,0 +1,73 @@
+<input class="filterinput" type='text' placeholder='输入您想要搜索的名称进行搜索' confirm-type='search'> </input>
+
+<view class='contain'>
+  <view class='leftmenu'>
+    <view class="menusingle {{activenum == 0?'active':''}}" data-num='0' bindtap='menubindtap'><text>便民</text></view>
+    <view class="menusingle {{activenum == 1?'active':''}}" data-num='1' bindtap='menubindtap'><text>公共出行\n（附近）</text></view>
+    <view class="menusingle {{activenum == 2?'active':''}}" data-num='2' bindtap='menubindtap'><text>公共交通</text></view>
+    <view class="menusingle {{activenum == 3?'active':''}}" data-num='3' bindtap='menubindtap'><text>商户</text></view>
+    <view class="menusingle {{activenum == 4?'active':''}}" data-num='4' bindtap='menubindtap'><text>就医</text></view>
+    <view class="menusingle {{activenum == 5?'active':''}}" data-num='5' bindtap='menubindtap'><text>媒体</text></view>
+    <view class="menusingle {{activenum == 6?'active':''}}" data-num='6' bindtap='menubindtap'><text>教育</text></view>
+    <view class="menusingle {{activenum == 7?'active':''}}" data-num='7' bindtap='menubindtap'><text>政府</text></view>
+    <view class="menusingle {{activenum == 8?'active':''}}" data-num='8' bindtap='menubindtap'><text>其他</text></view>
+  </view>
+
+{{righttext}}
+
+  <view class='right'>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='快递'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>快递
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='货运物流'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>货运物流
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='同城速递'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>同城速递
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='家电维修'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>家电维修
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='宽带故障'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>宽带故障
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='开锁修锁'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>开锁修锁
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='油烟机清洗'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>油烟机清洗
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='管道疏通'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>管道疏通
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='纱窗安装维修'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>纱窗安装维修
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='修表'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>修表
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='月嫂保洁'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>月嫂保洁
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='衣物修补'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>衣物修补
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='定做棉被'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>定做棉被
+    </view>
+    <view class='rightsingle' bindtap='linkbindtap' data-val='干洗'>
+      <image class="right-icon" src="../../images/phone.png" mode='widthFix'></image>干洗
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+

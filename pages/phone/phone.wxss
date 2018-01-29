@@ -1,0 +1,59 @@
+view{
+  font-size: 0.9em;
+}
+
+.filterinput{
+  margin-top:15px;
+  background-color:cornsilk;
+  padding: 5px 15px;
+  font-size: 0.8em;
+}
+
+.contain{
+  width:100%;
+  background-color:azure;
+  margin-top:25px;
+  padding: 20px 0;
+}
+
+.leftmenu{
+  width:25%;
+  border-right: 1px solid #ccc;
+  border-top:1px solid #ccc;
+  float: left;
+  background-color: #fff;
+  margin-top:-20px;
+}
+.menusingle{
+  text-align: center;
+  padding:10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.menusingle.active{
+  background-color: azure;
+  margin-right:-1px;
+}
+
+.right{
+  width:60%;
+  margin-left: 33%;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.rightsingle{
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+.right-icon{
+  width:1.5em;
+  vertical-align:middle;
+  margin: 0 10px; 
+}
+
+
+
+
+
+
+
