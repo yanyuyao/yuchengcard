@@ -5,14 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    title:'',
+    tapval:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options.title);
+    this.setData({
+      title:options.title
+    })
+    wx.setNavigationBarTitle({
+      title: "同城电话簿-"+this.data.title,
+    })
+  },
+
+  //跳转链接
+  linkbindtap: function (e) {
+    var tapval = e.currentTarget.dataset.val;
+    wx.navigateTo({
+      url: "../phoneinfo/info?title=" + tapval
+    })
   },
 
   /**

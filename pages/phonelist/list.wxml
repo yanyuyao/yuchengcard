@@ -1,2 +1,38 @@
-<!--pages/phonelist/list.wxml-->
-<text>pages/phonelist/list.wxml</text>
+<input class="filterinput" type='text' placeholder='输入您想要搜索的名称进行搜索' confirm-type='search'> </input>
+
+<view class='contain'>
+  <view class='single' bindtap='linkbindtap' data-val='申通'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>申通
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+  <view class='single' bindtap='linkbindtap' data-val='圆通'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>圆通
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+  <view class='single' bindtap='linkbindtap' data-val='韵达'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>韵达
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+  <view class='single' bindtap='linkbindtap' data-val='中通'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>中通
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+  <view class='single' bindtap='linkbindtap' data-val='顺丰'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>顺丰
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+  <view class='single' bindtap='linkbindtap' data-val='天天'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>天天
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+  <view class='single' bindtap='linkbindtap' data-val='百世汇通'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>百世汇通
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+  <view class='single' bindtap='linkbindtap' data-val='邮政快递EMS'>
+    <image class="icon" src="../../images/phone.png" mode='widthFix'></image>邮政快递EMS
+    <image class='rightarrow' src='../../images/rightarrow.png' mode='widthFix'></image>
+  </view>
+</view>
+
+

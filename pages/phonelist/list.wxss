@@ -1,1 +1,31 @@
 /* pages/phonelist/list.wxss */
+.filterinput{
+  margin-top:15px;
+  background-color:cornsilk;
+  padding: 10px 15px;
+  font-size: 0.8em;
+}
+
+.contain{
+  margin-top: 25px;
+  border-top: 1px solid #ccc;
+}
+.single{
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.icon{
+  width:1.7em;
+  vertical-align:middle;
+  margin-right: 15px;
+}
+.rightarrow{
+  width:1.4em;
+  vertical-align:middle;
+  float: right;
+}
+
+
+
+
+
